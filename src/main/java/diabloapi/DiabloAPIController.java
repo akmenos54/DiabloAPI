@@ -28,11 +28,12 @@ public class DiabloAPIController {
         return Items_List;
     }
     
+    /*
     @GetMapping("/DiabloAPI/:id")
     public Item diabloID(@PathVariable int id) {
         //to do 
     	return null;
-    }
+    }*/
     
     @DeleteMapping("/DiabloAPI/:id")
     public ResponseEntity greetingDelete(@PathVariable int id) {
