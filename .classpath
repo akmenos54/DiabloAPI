@@ -8,9 +8,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
@@ -23,5 +23,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Romain/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Romain/.m2/repository/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Romain/.m2/repository/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Romain/.m2/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Romain/.m2/repository/de/codecentric/spring-boot-admin-client/2.1.1/spring-boot-admin-client-2.1.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
